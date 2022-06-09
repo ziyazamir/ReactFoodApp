@@ -23,7 +23,7 @@ const ContactUs = () => {
           style={{ fontSize: "45px", fontFamily: "cursive" }}
           className="d-block m-auto text-center fw-bold"
         >
-          About Us
+          Contact Us
         </p>
       </div>
 
