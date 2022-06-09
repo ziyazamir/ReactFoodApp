@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&family=Permanent+Marker&display=swap');
+
+.carausel{
+    height: 100vh;
+}
+.carausel-item{
+    max-height: 350px;
+    height: 350px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cr-text{
+    width: 40%;
+    
+}
+.cr-text p:nth-child(1){
+    color: rgb(17, 237, 32);
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+
+}
+.cr-text p:nth-child(2){
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;}

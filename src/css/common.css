@@ -1,0 +1,48 @@
+.root-h{
+    height: 100vh;
+    /* border:2px solid red; */
+}
+.bg-image{
+    background-position: center;
+    background-size: cover;
+}
+.kilimanjaro_social_links li{
+    margin: 4px;
+}
+.kilimanjaro_social_links a:hover{
+    background-color: rgb(22, 61, 22);
+    color: white;
+    /* margin: 6px; */
+    transition: all .2s linear;
+}
+.kilimanjaro_social_links li :hover{
+    margin: 2px;
+}
+.kilimanjaro_widget a:hover {
+    background-color: rgb(22, 61, 22);
+    color: white;
+    /* margin: 6px; */
+    transition: all .2s linear;
+    border: 2px inset white;
+}
+.kilimanjaro_widget li {
+margin: 2px;
+}
+    .kilimanjaro_widget li:hover {
+   margin: 2px;
+}
+.dropdown-menu{
+background: rgba(225, 227, 223, 0.195);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: black;
+    font-size: 20px;
+    font-family: 'marker';
+    padding:20px 10px;
+}
+.dropdown-menu li{
+    margin-bottom: 10px;
+}

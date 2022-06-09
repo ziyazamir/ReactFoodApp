@@ -1,0 +1,114 @@
+.location{
+    background: rgba(225, 227, 223, 0.55);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(7.5px);
+        -webkit-backdrop-filter: blur(7.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        color: black;
+}
+.location > p:nth-child(1){
+    font-family: 'Satisfy',cursive;
+    font-size: 70px;
+    color: rgb(25, 80, 25);
+}
+.location > p:nth-child(2){
+    font-family: 'marker';
+    font-size: 50px;
+    font-weight: bold;
+    color: #457082;
+}
+.location > p:nth-child(3){
+    font-family: 'marker';
+    font-size: 30px;
+    color: black;
+}
+.location .col-9 p:nth-child(1) {
+    font-weight: bold;
+    font-size: 27px;
+    font-family: 'marker';
+    margin-bottom: 5px;
+}
+.location .col-9 p:nth-child(2) {
+    /* font-weight: bold; */
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.msg-form input,textarea{
+width: 100%;
+min-height: 70px;
+border-radius: 20px;
+border: 1px solid #13e41a6f;
+padding: 0 20px;
+font-size: 20px;
+}
+.msg-form textarea{
+    min-height: 200px;
+}
+.msg-form label{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'marker';
+    color: #457082;
+font-weight: bold;
+}
+.msg-btn{
+    background-color: #0d3101;
+    border-radius: 15px;
+    color: white;
+}
+.msg-btn:hover {
+    background-color: white;
+    color: #0d3101;
+    border: 2px solid #0d3101;
+}
+.msg-btn:hover i{
+    transition: all .1s linear;
+    /* font-size: 30px; */
+    margin-left: 3px;
+}
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(176, 167, 167);
+    font-size: 20px;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(176, 167, 167);
+    font-size: 20px;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(176, 167, 167);
+    font-size: 20px;
+}
+.msg-form textarea::-webkit-input-placeholder {
+    color: rgb(176, 167, 167);
+    font-size: 20px;
+}
+
+.msg-form textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgb(176, 167, 167);
+    font-size: 20px;
+}
+
+.msg-form textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgb(176, 167, 167);
+    font-size: 20px;
+}
+
+.msg-form textarea:-ms-input-placeholder {
+    color: rgb(176, 167, 167);
+    font-size: 20px;
+}
+
+textarea::placeholder {
+    color: rgb(176, 167, 167);
+    font-size: 20px;
+}
