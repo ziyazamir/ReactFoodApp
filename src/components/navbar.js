@@ -6,18 +6,22 @@ import { Link } from "react-router-dom";
 const navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid px-5 row">
-        <div className="col-3">
-          <div>
-            <Link to="/">
-              <img id="logo" className="me-3" src={logo} alt="" />
-            </Link>
-            <Link id="brand-name" className="navbar-brand ms-3 fs-1" to="#">
-              Brand
-            </Link>
+      <div className="container-fluid row m-0 p-0">
+        <div className="col-lg-4 col-sm-8 order-lg-first col-6">
+          <div className="text-center text-lg-start row">
+            <div className="col-md-6 col-12 col-lg-3">
+              <Link to="/">
+                <img id="logo" className="float-md-end" src={logo} alt="" />
+              </Link>
+            </div>
+            <div className="col-6">
+              <Link id="brand-name" className="navbar-brand d-none d-md-block ms-3 fs-1 mt-2 text-start" to="#">
+                Brand
+              </Link>
+            </div>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-lg-5 col-sm-2 order-sm-first order-first col-3">
           <button
             className="navbar-toggler"
             type="button"
@@ -86,15 +90,15 @@ const navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="col-2 text-end">
-          <div id="cart-no" className="btn rounded-pill border px-1">
+        <div className="col-lg-2 col-sm-2 text-end px-lg-0 col-3">
+          <div id="cart-no" className="btn rounded-pill px-0">
             <span
               id="cart-icon"
-              className="fs-4 pt-2 shadow rounded-circle border"
+              className="fs-4 pt-2 rounded-circle border-0"
             >
-              <i class="fa-solid fa-cart-shopping"></i>
+              <i class="fa-solid fa-cart-shopping m-sm-0"></i>
             </span>
-            <span className="fs-4 pt-1 float-end pe-4">Cart 0</span>
+            <span className="fs-4 pt-1 float-end pe-4 d-none d-lg-block">Cart 0</span>
           </div>
         </div>
       </div>

@@ -1,26 +1,55 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-nav{
+
+nav {
     min-height: 100px;
 }
-#logo{
+
+#logo {
     width: 80px;
     height: auto;
 }
-#brand-name{
+
+#brand-name {
     font-family: cursive;
 }
-#cart-no{
+
+#cart-no {
     min-height: 65px;
-    min-width: 160px;
+    /* min-width: 160px; */
 }
-#cart-icon{
+
+#cart-icon {
     float: left;
     width: 50px;
     height: 50px;
-    background-color:#274c5b ;
+    background-color: #274c5b;
     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        min-height: 70px;
+    }
+
+    #logo {
+        height: 55px;
+        width: auto;
+    }
+
+    #cart-icon {
+        float: left;
+        width: 45px;
+        height: 45px;
+        background-color: #274c5b;
+        color: white;
+    }
+
+    #cart-no {
+        min-height: 50px;
+        /* min-width: 60px; */
+    }
 }

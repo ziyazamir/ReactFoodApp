@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&family=Permanent+Marker&display=swap');
-.bg-img{
+
+.bg-img {
     background-image: url('../images/header3.jpg');
     background-position: center;
     /* background-position: ;00 */
@@ -9,27 +10,52 @@
     -moz-transform: rotate(180deg); */
     background-repeat: no-repeat;
 }
-.header{
+
+.header {
     height: 87vh;
 }
-.h-text{
+
+.h-text {
     z-index: 1;
+    width: 50%;
 }
-.h-text p:nth-child(1){
+
+.h-text p:nth-child(1) {
     color: rgb(39, 92, 19);
     font-family: 'Permanent Marker', cursive;
     font-size: 40px;
 }
-.h-text p:nth-child(2){
+
+.h-text p:nth-child(2) {
     color: #274c5b;
     /* font-family: 'Permanent Marker', cursive; */
     font-size: 60px;
     font-family: 'Abril Fatface', cursive;
 }
-.h-text a{
+
+.h-text a {
     background-color: #0d3101;
     color: white;
 }
-.h-text a:hover{
+
+.h-text a:hover {
     background-color: #efd372;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        height: 100vh;
+    }
+
+    .h-text {
+        width: 75%;
+    }
+
+    .h-text p:nth-child(1) {
+        font-size: 25px;
+    }
+
+    .h-text p:nth-child(2) {
+        font-size: 35px;
+    }
 }
