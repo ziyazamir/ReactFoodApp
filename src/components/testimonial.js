@@ -18,7 +18,7 @@ const testimonial = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplaySpeed: 5000,
-    Arrow:true,
+    Arrow: true,
   };
   return (
     <div
@@ -47,7 +47,7 @@ const testimonial = () => {
             </div>
             <div className="t-desc text-center">
               <p className="t-name">Sara Khan</p>
-              <p className="d-block m-auto t-msg w-50">
+              <p className="d-block m-auto t-msg w-75">
                 The quality of organic produce is extremely high, the service is
                 second to none and the taste of the food takes me back to my
                 childhood when we were growing our own.
@@ -65,7 +65,7 @@ const testimonial = () => {
             </div>
             <div className="t-desc text-center">
               <p className="t-name">Laurence Macoyl</p>
-              <p className="d-block m-auto t-msg w-50">
+              <p className="d-block m-auto t-msg w-75">
                 I have been using the Organick Grocer for over a year now and I
                 find the staff friendly and helpful with a good knowledge of the
                 products they sell.
@@ -83,7 +83,7 @@ const testimonial = () => {
             </div>
             <div className="t-desc text-center">
               <p className="t-name">Burack</p>
-              <p className="d-block m-auto t-msg w-50">
+              <p className="d-block m-auto t-msg w-75">
                 The quality of organic produce is extremely high, the service is
                 second to none and the taste of the food takes me back to my
                 childhood when we were growing our own.

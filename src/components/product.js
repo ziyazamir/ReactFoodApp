@@ -5,8 +5,8 @@ const product = () => {
     <div className="container-fuid mt-5 pt-5" id="product">
       <p className="h3 text-center">Fresh</p>
       <p className="fw-bold text-center mt-3">Our Products</p>
-      <div className="container-fluid m-0 row">
-        <div className="col-4 mb-3">
+      <div className="container-fluid m-0 row p-0">
+        <div className="col-md-6 col-lg-4 col-12 mb-3">
           <div
             className="pr-card p-2 position-relative"
             style={{
@@ -25,7 +25,7 @@ const product = () => {
             </div>
           </div>
         </div>
-        <div className="col-4 mb-3">
+        <div className="col-md-6 col-lg-4 col-12 mb-3">
           <div
             className="pr-card p-2 position-relative"
             style={{
@@ -44,7 +44,7 @@ const product = () => {
             </div>
           </div>
         </div>
-        <div className="col-4 mb-3">
+        <div className="col-md-6 col-lg-4 col-12 mb-3">
           <div
             className="pr-card p-2 position-relative"
             style={{
@@ -63,7 +63,7 @@ const product = () => {
             </div>
           </div>
         </div>
-        <div className="col-4 mb-3">
+        <div className="col-md-6 col-lg-4 col-12 mb-3">
           <div
             className="pr-card p-2 position-relative"
             style={{
@@ -82,7 +82,7 @@ const product = () => {
             </div>
           </div>
         </div>
-        <div className="col-4 mb-3">
+        <div className="col-md-6 col-lg-4 col-12 mb-3">
           <div
             className="pr-card p-2 position-relative"
             style={{
@@ -101,7 +101,7 @@ const product = () => {
             </div>
           </div>
         </div>
-        <div className="col-4 mb-3">
+        <div className="col-md-6 col-lg-4 col-12 mb-3">
           <div
             className="pr-card p-2 position-relative"
             style={{

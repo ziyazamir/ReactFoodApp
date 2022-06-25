@@ -1,7 +1,7 @@
 import React from "react";
 import navbarcss from "../css/navbar.css";
 import { FaBeer } from "react-icons/fa";
-import logo from "../images/logo.png";
+import logo from "../images/logo1.png";
 import { Link } from "react-router-dom";
 const navbar = () => {
   return (
@@ -15,7 +15,7 @@ const navbar = () => {
               </Link>
             </div>
             <div className="col-6">
-              <Link id="brand-name" className="navbar-brand d-none d-md-block ms-3 fs-1 mt-2 text-start" to="#">
+              <Link id="brand-name" className="navbar-brand d-none d-md-block fs-1 mt-2 text-start" to="#">
                 Brand
               </Link>
             </div>
@@ -94,9 +94,9 @@ const navbar = () => {
           <div id="cart-no" className="btn rounded-pill px-0">
             <span
               id="cart-icon"
-              className="fs-4 pt-2 rounded-circle border-0"
+              className="fs-4 rounded-circle border-0"
             >
-              <i class="fa-solid fa-cart-shopping m-sm-0"></i>
+              <i class="fa-solid fa-cart-shopping mt-2"></i>
             </span>
             <span className="fs-4 pt-1 float-end pe-4 d-none d-lg-block">Cart 0</span>
           </div>

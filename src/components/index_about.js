@@ -9,10 +9,10 @@ const index_about = () => {
     <div className="container-fluid i-about mb-5">
       <div className="row align-content-center h-100">
         <div
-          className="col-6 h-100 bgImg"
+          className="col-md-6 col-12 h-100 bgImg d-md-block d-none"
           style={{ backgroundImage: `url(${img1})` }}
         ></div>
-        <div className="col-6 h-100 about_text">
+        <div className="col-md-6 col-12 h-100 about_text">
           <p className="">About Us</p>
           <p className="fw-bolder">
             We Believe In Organic Foods For Strong Health
