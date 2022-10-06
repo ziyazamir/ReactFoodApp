@@ -32,13 +32,13 @@ const navbar = () => {
               <Link
                 className="nav-link active"
                 aria-current="page"
-                to="/ReactApp/"
+                to="/"
               >
                 Home
               </Link>
             </li>
             <li className="nav-item ms-5 fs-5">
-              <Link className="nav-link" to="/ReactApp/about">
+              <Link className="nav-link" to="/about">
                 About
               </Link>
             </li>
@@ -73,7 +73,7 @@ const navbar = () => {
               </ul>
             </li>
             <li className="nav-item ms-5 fs-5">
-              <Link to="/ReactApp/contact" className="nav-link">
+              <Link to="/contact" className="nav-link">
                 Contact
               </Link>
             </li>
